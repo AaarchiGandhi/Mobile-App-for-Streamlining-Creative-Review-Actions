@@ -85,14 +85,16 @@
 	
 	git remote add origin https://github.com/AaarchiGandhi/Mobile-App-for-Streamlining-Creative-Review-Actions.git
 
+`Here, before committing the files inside dist folder, check this line <base href=https://AaarchiGandhi.github.io/Mobile-App-for-Streamlining-Creative-Review-Actions"> in index.html. You should append '/' forward slash at the end of href path. (Line no.5)`
+
+`It should become <base href=https://AaarchiGandhi.github.io/Mobile-App-for-Streamlining-Creative-Review-Actions/"> in index.html in dist folder. Now, you can commit and push the code in gh-pages branch for deployment. (Line no.5)`
+
 	git add .
 	git commit -m "Code push for github page"
 	
 	git push -u origin master:gh-pages
 
-	Set up GitHub Pages: 
+  Set up GitHub Pages: 
 	
-		Once the code is pushed, you just need to go to your GitHub repository settings, go to the "Pages" tab and set the source to the gh-pages branch.
-		
-	That's it! Your Ionic project should now be deployed to GitHub Pages.
-
+	Once the code is pushed, you just need to go to your GitHub repository settings, go to the "Pages" tab and set the source to the gh-pages branch.
+  That's it! Your Ionic project should now be deployed to GitHub Pages.

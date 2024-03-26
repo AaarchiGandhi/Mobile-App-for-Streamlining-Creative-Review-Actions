@@ -1,4 +1,4 @@
-# Mobile-App-for-Streamlining-Creative-Review-Actions
+# Mobile Review App (RevX)
 
   The project is build using Ionic Framework in Angular.
   

@@ -4,7 +4,7 @@
   
    I have hosted this project on this link :
   
- Hosted at : https://AaarchiGandhi.github.io/Mobile-App-for-Streamlining-Creative-Review-Actions 
+ Hosted at : https://AaarchiGandhi.github.io/Mobile-Review-App-RevX 
       (Please view in Mobile mode)
     
   ## Please open this website in either Mobile or responsive Mobile devices (if you're using any browser in Laptop screen).
@@ -79,15 +79,15 @@
     
    ## Steps for hosting on Github Pages :
 	
-	ng build --base-href "https://AaarchiGandhi.github.io/Mobile-App-for-Streamlining-Creative-Review-Actions"
+	ng build --base-href "https://AaarchiGandhi.github.io/Mobile-Review-App-RevX"
 	cd dist
 	git init
 	
-	git remote add origin https://github.com/AaarchiGandhi/Mobile-App-for-Streamlining-Creative-Review-Actions.git
+	git remote add origin https://github.com/AaarchiGandhi/Mobile-Review-App-RevX.git
 
-`Here, before committing the files inside dist folder, check this line <base href=https://AaarchiGandhi.github.io/Mobile-App-for-Streamlining-Creative-Review-Actions"> in index.html. You should append '/' forward slash at the end of href path. (Line no.5)`
+`Here, before committing the files inside dist folder, check this line <base href=https://AaarchiGandhi.github.io/Mobile-Review-App-RevX"> in index.html. You should append '/' forward slash at the end of href path. (Line no.5)`
 
-`It should become <base href=https://AaarchiGandhi.github.io/Mobile-App-for-Streamlining-Creative-Review-Actions/"> in index.html in dist folder. Now, you can commit and push the code in gh-pages branch for deployment. (Line no.5)`
+`It should become <base href=https://AaarchiGandhi.github.io/Mobile-Review-App-RevX/"> in index.html in dist folder. Now, you can commit and push the code in gh-pages branch for deployment. (Line no.5)`
 
 	git add .
 	git commit -m "Code push for github page"
